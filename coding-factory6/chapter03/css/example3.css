@@ -1,0 +1,17 @@
+
+.firstname {
+    border: 1px solid black;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.firstname::input {
+    border: 0px;
+}
+.lastname::before {
+    content: '\1f600';
+}
+
+.firstname::after {
+    content: '\1f604';
+}
